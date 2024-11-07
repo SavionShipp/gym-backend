@@ -7,3 +7,5 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+Exercise.create(name:"bicep curls", description: "curl the dumbbell towards your shoulder from a rested position", image_url:"https://fitnessprogramer.com/wp-content/uploads/2021/02/Dumbbell-Curl.gif", video_url:"https://www.youtube.com/watch?v=ykJmrZ5v0Oo")
