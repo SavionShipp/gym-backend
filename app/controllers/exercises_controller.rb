@@ -20,4 +20,10 @@ class ExercisesController < ApplicationController
     render :show
   end
 
+  def destroy
+    @exercis = Exercise.find_by_id(id: params[:id])
+    @exercise.destroy
+    render json: {message: "exercise has been deleted successfully"}
+  end
+
 end
