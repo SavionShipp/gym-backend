@@ -15,4 +15,8 @@ Rails.application.routes.draw do
   get "/user/:id" => "users#show"
 
   get "/exercise/:id" => "exercises#show"
+
+  get "/liked" => "liked#index"
+
+  post "/liked" => "Liked#create"
 end
